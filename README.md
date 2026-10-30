@@ -50,9 +50,11 @@ void loop() {
 4. Enter the code and click **Upload**.
 5. Once uploaded, observe the LED on the breadboard.
 
+   
+<img width="486" height="471" alt="image" src="https://github.com/user-attachments/assets/15d13ccf-775a-4530-9550-514e7d992449" />
+
 **Result:** The LED blinks continuously at 1 Hz (500 ms ON, 500 ms OFF), confirming successful GPIO digital output control on the ESP32.
 
-<img width="486" height="471" alt="image" src="https://github.com/user-attachments/assets/15d13ccf-775a-4530-9550-514e7d992449" />
 
 --
 
