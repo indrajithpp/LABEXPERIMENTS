@@ -154,7 +154,6 @@ GPIO22 ─────── SCL
 
 *Library Required:* LiquidCrystal_I2C (Install via Arduino IDE → Library Manager)
 
-```
 
 **Code:**
 ```cpp
