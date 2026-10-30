@@ -154,8 +154,10 @@ GPIO22 ─────── SCL
 
 *Library Required:* LiquidCrystal_I2C (Install via Arduino IDE → Library Manager)
 
-*Code:*
-cpp
+```
+
+**Code:**
+```cpp
 #include <Wire.h>
 #include <LiquidCrystal_I2C.h>
 
@@ -179,6 +181,7 @@ void loop() {
   counter++;
   delay(1000);
 }
+```
 
 
 *Procedure:*
@@ -216,9 +219,8 @@ void loop() {
 
 RPi GPIO17 (Pin 11) ──── 220Ω ──── LED(+) ──── LED(−) ──── GND (Pin 6)
 
-
-*Code (Python):*
-python
+**Code:**
+```cpp
 import RPi.GPIO as GPIO
 import time
 
@@ -239,6 +241,7 @@ except KeyboardInterrupt:
 
 finally:
     GPIO.cleanup()
+```
 
 
 *Procedure:*
@@ -282,8 +285,8 @@ RPi GPIO17 ──── 220Ω ──── LED(+) ──── LED(−) ──�
 RPi GPIO18 ──── Button ──── GND      (Input, Pull-Up enabled in software)
 
 
-*Code (Python):*
-python
+**Code:**
+```cpp
 import RPi.GPIO as GPIO
 import time
 
@@ -310,6 +313,7 @@ except KeyboardInterrupt:
 
 finally:
     GPIO.cleanup()
+```
 
 
 *Procedure:*
