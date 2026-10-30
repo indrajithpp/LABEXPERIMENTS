@@ -116,8 +116,6 @@ void loop() {
 4. Upload the code.
 5. Press and hold the push-button and observe the LED. Release and observe.
 
-   <html lang="en"><head><meta charset="UTF-8">
-
 **Result:** The LED turns ON when the push-button is pressed and turns OFF when released, confirming successful GPIO digital input reading and output control on the ESP32.
 
 ---
